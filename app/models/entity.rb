@@ -1,5 +1,4 @@
 class Entity < ApplicationRecord
-
   validates :name, presence: true
   validates :author_id, presence: true
   validates :name, presence: true
@@ -7,5 +6,4 @@ class Entity < ApplicationRecord
   has_many :group_entities, dependent: :destroy
   has_many :groups, through: :group_entities
   belongs_to :user, class_name: 'User', foreign_key: 'author_id'
-
 end
