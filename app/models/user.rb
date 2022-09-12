@@ -6,7 +6,9 @@ class User < ApplicationRecord
 
   validates :first_name, presence: true
   validates :family_name, presence: true
-  
+  validates :email, presence: true
+  validates :password, presence: true
+
   has_many :groups, dependent: :destroy
   has_many :entities, dependent: :destroy
 end
