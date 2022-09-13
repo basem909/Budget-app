@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
   def index
-    @categories = Group.all
     @user = current_user
+    @categories = Group.where(user_id: @user.id)
   end
 end
