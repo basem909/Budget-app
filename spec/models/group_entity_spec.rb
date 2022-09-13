@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe GroupEntity, type: :model do
-subject { GroupEntity.new(group_id: 1, entity_id: 1) }
+  subject { GroupEntity.new(group_id: 1, entity_id: 1) }
 
   before { subject.save }
 

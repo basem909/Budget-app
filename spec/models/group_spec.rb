@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Group, type: :model do
-subject { Group.new(name: 'mbc group', icon: 'phot.png', user_id: 1) }
+  subject { Group.new(name: 'mbc group', icon: 'phot.png', user_id: 1) }
 
   before { subject.save }
 
