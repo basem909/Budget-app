@@ -17,9 +17,24 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-image: linear-gradient(60deg, #3778c2, rgb(32, 32, 186));
   background-repeat: no-repeat;
   background-size: cover;
+}
+.sign-out-btn{
+  color: white;
+  padding: 1.5vw;
+  border: groove 1.5px white;
+  border-radius: 5px;
+  background-color: #5fb523;
+  font-weight: 700;
+  font-size: 2vw;
+  text-decoration: none;
+  width: initial;
+  text-align: center;
+  margin-left: 3vw;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
 }

@@ -1,0 +1,17 @@
+<h1>Add a new Category</h1>
+<%= form_with model: @category, url: user_categories_path(@user) do |form|%>
+  <div class='mb-3'>
+  <%= form.label :name %>
+  <%= form.text_field :name, class: 'form-control' %>
+  </div>
+
+  <div class='mb-3'>
+  <%= form.label :icon %>
+  <%= form.text_area :icon, class: 'form-control' %>
+  </div>
+  
+  <div class='mb-3'>
+  <%= form.submit 'new food' ,class: 'btn btn-primary'%>
+  
+  </div>
+  <% end %>

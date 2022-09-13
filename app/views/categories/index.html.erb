@@ -7,8 +7,9 @@
   <div class="category">
   <img src="<%= category.icon %>" alt="Category Icon" class="icon">
   <h3 class="category-name"><%= category.name %></h3>
-  <p class="category-amount"><%= category.entities.sum(:amount)%></p>
+  <p class="category-amount"><%= number_to_currency (category.entities.sum(:amount)) or 0 %></p>
   </div>
   <% end %>
 </section>
+  <div class="link-container"><%= link_to 'New Category', new_user_category_path, class:'new-category' %></div>
 </div>
