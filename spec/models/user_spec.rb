@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
   subject { User.new(email: 'email@gmail.com', first_name: 'John', family_name: 'Jackson', password: '1234567890') }
 
   before { subject.save }
