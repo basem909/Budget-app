@@ -1,6 +1,13 @@
-.categories-container{
-  min-height:fit-content;
+.categories-container {
+  height:fit-content;
+  min-height: 100vh;
   padding-bottom: 5vw;
+}
+
+.back {
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
 }
 
 .categories-header {
@@ -53,10 +60,10 @@ position: fixed;
 bottom: 0;
 width: 100%;
 text-decoration: none;
-  text-align: center;
+text-align: center;
 }
 
-.new-category {
+.new-category, .btn {
   color: white;
   padding: 1vw 40vw;
   border: groove 1.5px white;
@@ -68,4 +75,42 @@ text-decoration: none;
   text-align: center;
   width: 100vw;
   font-family: 'Lato', sans-serif;
+}
+
+.categories-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+
+.cat-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  padding: 5vw;
+  border: #434b54 3px groove;
+  border-radius: 5px;
+  background-color: #434b543f;
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+
+.mb-3 > label {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1.5vw;
+  margin: 3vw 5vw;
+  cursor: pointer;
 }

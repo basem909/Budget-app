@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sign-out-btn{
+.sign-out-btn, .back{
   color: white;
   padding: 1.5vw;
   border: groove 1.5px white;
@@ -37,4 +37,10 @@ body {
   margin-left: 3vw;
   cursor: pointer;
   font-family: 'Lato', sans-serif;
+}
+
+.sign-out-btn {
+ position: absolute;
+  top: 3vw;
+  right: 3vw;
 }
