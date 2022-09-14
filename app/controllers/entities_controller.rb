@@ -8,10 +8,11 @@ class EntitiesController < ApplicationController
     @transaction.author_id = current_user.id
     if @transaction.save
       GroupEntity.create(group_id: params[:category_id], entity_id: @transaction.id)
-redirect_to user_category_path(id: params[:category_id]),
+      redirect_to user_category_path(id: params[:category_id]),
                   flash: { success: 'Transaction created successfully.' }
     else
-      redirect_to new_user_category_entity_path(category_id:params[:id]), flash: { error: @transaction.errors.full_messages }
+      redirect_to new_user_category_entity_path(category_id: params[:id]),
+                  flash: { error: @transaction.errors.full_messages }
     end
   end
 
@@ -23,6 +24,6 @@ redirect_to user_category_path(id: params[:category_id]),
   private
 
   def entity_params
-    params.permit(:name, :amount, :group_id => :category_id)
+    params.permit(:name, :amount, group_id: :category_id)
   end
 end
