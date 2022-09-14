@@ -73,7 +73,7 @@ h1 {
 }
 
 .new-category,
-.btn {
+.btn, .a-box > a {
   color: white;
   padding: 1vw 40vw;
   border: groove 1.5px white;
@@ -119,7 +119,7 @@ h1 {
   font-weight: 700;
 }
 
-.btn {
+.btn,.a-box > a {
   padding: 1.5vw;
   margin: 3vw 5vw;
   cursor: pointer;
