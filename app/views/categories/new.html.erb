@@ -6,12 +6,12 @@
   <%= form_with model: @category, class: 'cat-form', url: user_categories_path(@user) do |form|%>
   <div class='mb-3'>
   <%= form.label :name %>
-  <%= form.text_field :name, class: 'form-control', :required => true, :placeholder => 'Write the name of the category here' %>
+  <%= form.text_field :name, class: 'form-control', :required => true, :place_holder => 'Write the name of the category here' %>
   </div>
 
   <div class='mb-3'>
   <%= form.label :icon %>
-  <%= form.text_area :icon, class: 'form-control', :required => true, :placeholder => 'Paste the link to the Icon here' %>
+  <%= form.text_area :icon, class: 'form-control', :required => true, :place_holder => 'Enter the icon link here' %>
   </div>
   
   <div class='mb-3'>

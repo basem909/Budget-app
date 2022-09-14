@@ -21,6 +21,11 @@ class CategoriesController < ApplicationController
     redirect_back(fallback_location: user_categories_path)
   end
 
+  def show
+    @category = Group.find(params[:id])
+    @transactions = @category.entities.order(created_at: :desc)
+  end
+
   private
 
   def category_params
