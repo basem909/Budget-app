@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_12_202937) do
   create_table "entities", force: :cascade do |t|
     t.bigint "author_id", null: false
     t.string "name"
-    t.integer "amount"
+    t.decimal "amount", precision: 10, scale: 2, default: "0.0"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["author_id"], name: "index_entities_on_author_id"

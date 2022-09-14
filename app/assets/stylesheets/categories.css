@@ -1,5 +1,5 @@
 .categories-container {
-  height:fit-content;
+  height: max-content;
   min-height: 100vh;
   padding-bottom: 5vw;
 }
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 
 h1 {
@@ -37,9 +37,13 @@ h1 {
   background-color: white;
   display: flex;
   justify-content: space-around;
-  align-items:flex-end;
+  align-items: flex-end;
   padding: 2vw 0;
   border-radius: 5px;
+}
+
+.category > form > button {
+  margin-block-end: 1.5em;
 }
 
 .icon {
@@ -47,23 +51,25 @@ h1 {
   max-height: 20vw;
 }
 
-.category-name, .category-amount {
+.category-name,
+.category-amount {
   font-family: 'Montserrat', sans-serif;
   color: #434b54;
   font-size: 4vw;
 }
 
-.link-container{
-background-color: #5fb523;
-padding: 2vw 1px;
-position: fixed;
-bottom: 0;
-width: 100%;
-text-decoration: none;
-text-align: center;
+.link-container {
+  background-color: #5fb523;
+  padding: 2vw 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
 }
 
-.new-category, .btn {
+.new-category,
+.btn {
   color: white;
   padding: 1vw 40vw;
   border: groove 1.5px white;

@@ -8,6 +8,7 @@
   <img src="<%= category.icon %>" alt="Category Icon" class="icon">
   <h3 class="category-name"><%= category.name %></h3>
   <p class="category-amount"><%= number_to_currency (category.entities.sum(:amount)) or 0 %></p>
+  <%= button_to 'Delete', user_category_path(category.id, current_user.id), method: :delete, data: {turbo: false} %>
   </div>
   <% end %>
 </section>

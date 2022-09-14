@@ -24,7 +24,7 @@
 hr {
   width: 10vw;
   margin: 1vw;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 h1 {
@@ -45,7 +45,8 @@ h1 {
   width: 98vw;
 }
 
-.user-action > a {
+.user-action > a,
+.category > form > button {
   color: white;
   padding: 1.5vw;
   border: groove 1.5px white;
@@ -56,4 +57,5 @@ h1 {
   text-decoration: none;
   width: initial;
   text-align: center;
+  cursor: pointer;
 }

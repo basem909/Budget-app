@@ -16,6 +16,11 @@ class CategoriesController < ApplicationController
     redirect_to user_categories_path(current_user)
   end
 
+  def destroy
+    Group.destroy(params[:user_id])
+    redirect_back(fallback_location: user_categories_path)
+  end
+
   private
 
   def category_params
