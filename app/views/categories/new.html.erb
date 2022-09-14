@@ -1,0 +1,22 @@
+<div class="categories-contain">
+  <header>
+  </header><h1>Add a new Category</h1>
+  <%= link_to '< Back', user_categories_path, class:'back' %>
+  </header>
+  <%= form_with model: @category, class: 'cat-form', url: user_categories_path(@user) do |form|%>
+  <div class='mb-3'>
+  <%= form.label :name %>
+  <%= form.text_field :name, class: 'form-control', :required => true, :place_holder => 'Write the name of the category here' %>
+  </div>
+
+  <div class='mb-3'>
+  <%= form.label :icon %>
+  <%= form.text_area :icon, class: 'form-control', :required => true, :place_holder => 'Enter the icon link here' %>
+  </div>
+  
+  <div class='mb-3'>
+  <%= form.submit 'New Category' ,class: 'btn btn-primary'%>
+  
+  </div>
+  <% end %>
+</div>

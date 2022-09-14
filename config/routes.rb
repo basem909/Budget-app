@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root "splash#index"
   # root "categories#index" if current_user
   resources :users, only: [:index] do
-    resources :categories, only: [:index, :new, :create, :destroy, :show]
+    resources :categories, only: [:index, :new, :create, :destroy, :show] do 
+      resources :entities, only: [ :new, :create, :destroy]
+    end
   end 
 end

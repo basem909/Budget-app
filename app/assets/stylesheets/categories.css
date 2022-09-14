@@ -1,0 +1,130 @@
+.categories-container {
+  height: max-content;
+  min-height: 100vh;
+  padding-bottom: 5vw;
+}
+
+.back {
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+}
+
+.categories-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4vw;
+}
+
+.categories {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 90vw;
+  justify-content: center;
+  gap: 3vh;
+  padding: 1vw 0;
+  margin-bottom: 3vw;
+}
+
+.category {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 2vw 0;
+  border-radius: 5px;
+}
+
+.categories > a {
+  text-decoration: none;
+}
+
+.category > form > button {
+  margin-block-end: 1.5em;
+}
+
+.icon {
+  width: 20vw;
+  max-height: 20vw;
+}
+
+.category-name,
+.category-amount {
+  font-family: 'Montserrat', sans-serif;
+  color: #434b54;
+  font-size: 4vw;
+}
+
+.link-container {
+  background-color: #5fb523;
+  padding: 2vw 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.new-category,
+.btn {
+  color: white;
+  padding: 1vw 40vw;
+  border: groove 1.5px white;
+  border-radius: 3px;
+  background-color: #5fb523;
+  font-weight: 700;
+  font-size: 3vw;
+  text-decoration: none;
+  text-align: center;
+  width: 100vw;
+  font-family: 'Lato', sans-serif;
+}
+
+.categories-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+
+.cat-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  padding: 5vw;
+  border: #434b54 3px groove;
+  border-radius: 5px;
+  background-color: #434b543f;
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+
+.mb-3 > label {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1.5vw;
+  margin: 3vw 5vw;
+  cursor: pointer;
+}
+
+#new-trans {
+  padding: 1vw 38vw;
+}

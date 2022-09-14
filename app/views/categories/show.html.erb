@@ -1,0 +1,16 @@
+<div class="show-cat">
+<header class="categories-header">
+<h1>Transactions for: <%= @category.name.capitalize %></h1>
+<%= link_to '< Back', user_categories_path(id: params[:category_id]), class:'back' %>
+</header>
+<div class="categories">
+<% @transactions.each do |transaction| %>
+  <div class="category">
+  <h3 class="category-name"><%= transaction.name %></h3>
+  <p class="category-amount"><%= number_to_currency (transaction.amount) %></p>
+  <%= button_to 'Delete', user_category_entity_path(category_id: transaction.id), method: :delete, data: {turbo: false} %>
+  </div>
+  <% end %>
+</div>
+<div class="link-container"><%= link_to 'New Transaction', new_user_category_entity_path(category_id:params[:id]), class:'new-category', id: 'new-trans' %></div>
+</div>
