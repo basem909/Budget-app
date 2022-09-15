@@ -47,7 +47,7 @@ h1 {
 
 .user-action > a,
 .category > form > button,
- .transaction > form > button{
+.transaction > form > button {
   color: white;
   padding: 1.5vw;
   border: groove 1.5px white;

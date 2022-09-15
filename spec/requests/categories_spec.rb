@@ -1,8 +1,6 @@
 require 'rails_helper'
 
-
 RSpec.describe 'Categories', type: :request do
-
   before(:all) do
     Rails.application.load_seed
   end

@@ -53,14 +53,14 @@ body {
 
 .a-box {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .a-box > a {
-max-width:max-content;
-margin: 0;
-border:none;
-background-color: inherit;
+  max-width: max-content;
+  margin: 0;
+  border: none;
+  background-color: inherit;
 }
