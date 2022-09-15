@@ -43,7 +43,7 @@ To get a local copy on this project on your machine follow these steps
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/basem909/Budget-app/issues).
 
 ## Show your support
 
