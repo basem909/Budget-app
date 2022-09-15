@@ -5,8 +5,8 @@
 </header>
 <div class="categories">
 <% @transactions.each do |transaction| %>
-  <div class="category">
-  <h3 class="category-name"><%= transaction.name %></h3>
+  <div class="transaction">
+  <h3 class="category-name"><%= transaction.name.capitalize %></h3>
   <p class="category-amount"><%= number_to_currency (transaction.amount) %></p>
   <%= button_to 'Delete', user_category_entity_path(category_id: transaction.id), method: :delete, data: {turbo: false} %>
   </div>

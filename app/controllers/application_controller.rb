@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   protected
 
   def after_sign_out_path_for(_resource)
-    flash[:notice] = "notice:  you're loggedOut!!"
+    flash[:notice] = "you're logged out"
     new_user_session_path
   end
 

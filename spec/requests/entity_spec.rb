@@ -1,7 +1,19 @@
 require 'rails_helper'
 
-RSpec.describe 'Entities', type: :request do
-  describe 'GET /index' do
-    pending "add some examples (or delete) #{__FILE__}"
+
+RSpec.describe 'Categories', type: :request do
+
+  before(:all) do
+    Rails.application.load_seed
+  end
+
+  it 'is receiving an Ok response from the server' do
+    get new_user_category_entity_path( category_id: 1, user_id: 1)
+    expect(response).to have_http_status(302)
+  end
+
+  it 'renders index template correctly' do
+    get new_user_category_entity_path( category_id: 1, user_id: 1)
+    expect(response).not_to render_template('index')
   end
 end
