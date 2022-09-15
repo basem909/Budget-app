@@ -45,7 +45,8 @@ h1 {
   width: 98vw;
 }
 
-.user-action > a, .category > form > button,
+.user-action > a,
+.category > form > button,
 .transaction > form > button {
   color: white;
   padding: 1.5vw;
