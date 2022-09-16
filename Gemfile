@@ -48,6 +48,7 @@ gem 'cancancan'
 gem 'rails-controller-testing'
 gem 'rspec'
 gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'mail'
 
 # Use Sass to process CSS
 # gem "sassc-rails"

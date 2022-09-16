@@ -18,8 +18,8 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
-  domain:               'https://budget-app-rails-mod.herokuapp.com',
-  user_name:            'basemshams30@gmail.com',
+  domain:               'gmail.com',
+  user_name:            'Basemshams30@gmail.com',
   password:             'kniriheoeooraznh',
   authentication:       'plain',
   enable_starttls_auto: true,
