@@ -1,0 +1,214 @@
+@media only screen and (max-width: 600px) {
+  .splash-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-weight: 700;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1026%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1027)'%3e%3c/rect%3e%3cpath d='M0 333.51L10 361.9L20 381.88L30 428.8L40 450.13L50 441.57L60 479.83L70 427.67L80 434.75L90 380.42L100 372.7L110 406.53L120 400.08L130 378.13L140 346.54L150 359.07L160 394.47L170 364.11L180 392.67L190 355.31L200 419.94L210 416.32L220 412.07L230 468.93L240 432.78L250 461.6L260 443.33L270 433.9L280 419.05L290 376.55L300 320.23L310 275.98L320 333.14L330 292.62L340 335.89L350 344.55L360 326.45L370 297.93L380 285.43L390 340.73L400 286.74L410 351.3L420 285.23L430 351.02L440 378.32L450 328.68L460 384.68L470 342.13L480 409.8L490 441.89L500 388.84L510 420.48L520 362.26L530 427.4L540 367.99L550 421.32L560 357.59L570 421.65L580 426.12L590 433.17L600 433.02L610 498.17L620 437.71L630 421.12L640 449.43L650 439.93L660 415.85L670 481.92L680 547.04L690 487.62L700 527.35L710 557.17L720 504.95L730 442.53L740 434.47L750 455.64L760 430.75L770 456.7L780 494.54L790 453.55L800 393.65L810 352.1L820 415.9L830 380.68L840 390.98L850 321.87L860 314.21L870 290.14L880 295.7L890 258.91L900 213.56L910 269.87L920 309.28L930 248.75L940 248.07L950 284.25L960 324.21L970 332.64L980 367.36L990 333.31L1000 295.95L1010 282.94L1020 341.78L1030 276.48L1040 302.54L1050 298.34L1060 360.6L1070 348.87L1080 302.37L1090 277.26L1100 218.58L1110 252.56L1120 213.84L1130 169.14L1140 201.35L1150 261.77L1160 295.14L1170 297.46L1180 302.59L1190 279.98L1200 284.59L1210 273.21L1220 267.78L1230 329.69L1240 342.48L1250 334.83L1260 359.58L1270 348.29L1280 347.88L1290 371.31L1300 352.79L1310 310.46L1320 304.23L1330 306.97L1340 342.36L1350 317.37L1360 251.7L1370 240.51L1380 302.12L1390 307.72L1400 345.69L1410 352.73L1420 385.18L1430 443.05L1440 470.21' stroke='rgba(15%2c 157%2c 88%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 333.51L10 361.9L20 381.88L30 428.8L40 450.13L50 441.57L60 479.83L70 427.67L80 434.75L90 380.42L100 372.7L110 406.53L120 400.08L130 378.13L140 346.54L150 359.07L160 394.47L170 364.11L180 392.67L190 355.31L200 419.94L210 416.32L220 412.07L230 468.93L240 432.78L250 461.6L260 443.33L270 433.9L280 419.05L290 376.55L300 320.23L310 275.98L320 333.14L330 292.62L340 335.89L350 344.55L360 326.45L370 297.93L380 285.43L390 340.73L400 286.74L410 351.3L420 285.23L430 351.02L440 378.32L450 328.68L460 384.68L470 342.13L480 409.8L490 441.89L500 388.84L510 420.48L520 362.26L530 427.4L540 367.99L550 421.32L560 357.59L570 421.65L580 426.12L590 433.17L600 433.02L610 498.17L620 437.71L630 421.12L640 449.43L650 439.93L660 415.85L670 481.92L680 547.04L690 487.62L700 527.35L710 557.17L720 504.95L730 442.53L740 434.47L750 455.64L760 430.75L770 456.7L780 494.54L790 453.55L800 393.65L810 352.1L820 415.9L830 380.68L840 390.98L850 321.87L860 314.21L870 290.14L880 295.7L890 258.91L900 213.56L910 269.87L920 309.28L930 248.75L940 248.07L950 284.25L960 324.21L970 332.64L980 367.36L990 333.31L1000 295.95L1010 282.94L1020 341.78L1030 276.48L1040 302.54L1050 298.34L1060 360.6L1070 348.87L1080 302.37L1090 277.26L1100 218.58L1110 252.56L1120 213.84L1130 169.14L1140 201.35L1150 261.77L1160 295.14L1170 297.46L1180 302.59L1190 279.98L1200 284.59L1210 273.21L1220 267.78L1230 329.69L1240 342.48L1250 334.83L1260 359.58L1270 348.29L1280 347.88L1290 371.31L1300 352.79L1310 310.46L1320 304.23L1330 306.97L1340 342.36L1350 317.37L1360 251.7L1370 240.51L1380 302.12L1390 307.72L1400 345.69L1410 352.73L1420 385.18L1430 443.05L1440 470.21L1440 560L0 560z' fill='url(%23SvgjsLinearGradient1028)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1026'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='-39.29%25' x2='15.28%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1027'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='SvgjsLinearGradient1028'%3e%3cstop stop-opacity='0.65' stop-color='rgba(15%2c 157%2c 88%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='%2355efa4' offset='0.8'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100vw 80vw;
+    padding-bottom: 50vw;
+  }
+
+  .splash-title > h3 {
+    font-size: 5vw;
+    margin: 5vw;
+    font-weight: 300;
+  }
+
+  hr {
+    width: 20vw;
+    margin: 1vw;
+    opacity: 0.5;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 5.5vw;
+    margin-top: 5vh;
+  }
+
+  .splash-title > h1 {
+    margin: 3vw 0;
+    font-size: 10vw;
+  }
+
+  .user-action {
+    background-color: inherit;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+    height: auto;
+    padding: 1vw;
+    font-weight: 700;
+    width: 98vw;
+  }
+
+  .user-action > a,
+  .category > form > button,
+  .transaction > form > button {
+    color: white;
+    padding: 1.5vw;
+    border: groove 1.5px white;
+    border-radius: 5px;
+    background-color: #5fb523;
+    font-weight: 500;
+    font-size: 2vw;
+    text-decoration: none;
+    width: initial;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .user-action > a {
+    font-size: 5vw;
+  }
+
+  .categories-container {
+    height: max-content;
+    min-height: 100vh;
+    padding-bottom: 5vw;
+  }
+
+  .back {
+    position: absolute;
+    font-size: larger;
+    top: 3vw;
+    left: 3vw;
+  }
+
+  .categories-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .categories {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 90vw;
+    justify-content: center;
+    gap: 3vh;
+    padding: 1vw 0;
+    margin-bottom: 3vw;
+  }
+
+  .category {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2vw 3vw;
+    border-radius: 5px;
+  }
+
+  .categories > a {
+    text-decoration: none;
+  }
+
+  .category > form > button,
+  .transaction > form > button {
+    margin-block-end: 1.5em;
+  }
+
+  .icon {
+    width: 20vw;
+    max-height: 20vw;
+  }
+
+  .category-name,
+  .category-amount {
+    font-family: 'Montserrat', sans-serif;
+    color: #434b54;
+    font-size: 4vw;
+  }
+
+  .link-container {
+    background-color: #5fb523;
+    padding: 2vw 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .new-category,
+  .btn,
+  .a-box > a {
+    color: white;
+    padding: 1vw 40vw;
+    border: groove 1.5px white;
+    border-radius: 3px;
+    background-color: #5fb523;
+    font-weight: 700;
+    font-size: 3vw;
+    text-decoration: none;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .categories-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+  }
+
+  .cat-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+    padding: 5vw;
+    border: #434b54 3px groove;
+    border-radius: 5px;
+    background-color: #434b543f;
+  }
+
+  .mb-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+  }
+
+  .mb-3 > label {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+
+  .btn,
+  .a-box > a {
+    padding: 1.5vw;
+    margin: 3vw 5vw;
+    cursor: pointer;
+  }
+
+  #new-trans {
+    padding: 1vw 38vw;
+  }
+
+  .transaction {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 20% 20%;
+    gap: 9%;
+    align-items: flex-end;
+    padding: 2vw 3vw;
+    border-radius: 5px;
+  }
+}
